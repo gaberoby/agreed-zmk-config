@@ -59,7 +59,6 @@
 &trans       &trans   &trans   &trans   &trans &trans &trans &trans &trans &trans     &kp C_VOL_UP &kp C_PP
 &trans       &trans   &trans   &trans   &trans           &trans     &trans &kp C_PREV &kp C_VOL_DN &kp C_NEXT
 			>;
-			>;
 		};
 
 	};
