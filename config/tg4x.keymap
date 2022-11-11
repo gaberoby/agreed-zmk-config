@@ -81,7 +81,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,4)                                 RC(3,5) RC(7,1) 
 &kp ESC      &kp Q    &kp W    &kp E    &kp R  &kp T  &kp Y  &kp U   &kp I     &kp O    &kp P              &kp BSPC
 &kp TAB      &kp A    &kp S    &kp D    &kp F  &kp G  &kp H  &kp J   &kp K     &kp L    &kp APOS           &kp RET
 &kp LSHFT    &kp Z    &kp X    &kp C    &kp V  &kp B  &kp N  &kp M   &kp COMMA &kp DOT  &kp UP             &kp RSHFT
-&kp LCTRL    &kp LGUI &kp LALT &kp SPACE      &mo 1                   &mo 2   &kp LEFT &kp DOWN           &kp RIGHT
+&kp LCTRL    &kp LGUI &kp LALT &kp SPACE      &mo 1                  &mo 2   &kp LEFT &kp DOWN           &kp RIGHT
 			>;
 		};
 
@@ -97,7 +97,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,4)                                 RC(3,5) RC(7,1) 
 		other_layer {
 			bindings = <
 &kp F1       &kp F2   &kp F3   &kp F4   &kp F5 &kp F6 &kp F7 &kp F8 &kp F9  &kp F10    &kp F11     &kp F12
-&BT_SEL 0    &BT_SEL 1 &BT_SEL 2    &BT_SEL 3    &BT_SEL 4  &trans &trans &trans  &trans  &trans    &trans      &trans
+&trans    &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3  &trans &trans &trans  &trans  &trans    &trans      &trans
 &trans       &trans   &trans   &trans   &trans &trans &trans &trans &trans &trans     &kp C_VOL_UP &kp C_PP
 &trans       &trans   &trans   &trans          &trans         &trans &kp C_PREV       &kp C_VOL_DN &kp C_NEXT
 			>;
